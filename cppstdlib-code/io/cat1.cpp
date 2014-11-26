@@ -31,9 +31,6 @@ int main (int argc, char* argv[])
             cout.put(c);
         }
 
-        // clear eofbit and failbit set due to end-of-file
-        file.clear();
-
         // close file
         file.close();
     }

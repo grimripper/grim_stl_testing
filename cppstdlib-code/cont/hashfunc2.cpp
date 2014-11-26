@@ -11,8 +11,7 @@
 #include <string>
 #include <iostream>
 #include <unordered_set>
-#include "../cont/hashval.hpp"
-#include <functional>
+#include "hashval.hpp"
 #include "print.hpp"
 using namespace std;
 
@@ -35,7 +34,8 @@ class Customer {
         return no;
     };
     friend ostream& operator << (ostream& strm, const Customer& c) {
-        return strm << "[" << c.fname << "," << c.lname << "," << c.no << "]";
+        return strm << "[" << c.fname << "," << c.lname << ","
+                           << c.no << "]";
     }
 };
 
@@ -47,13 +47,13 @@ int main()
     };
 
     // lambda for user-defined equality criterion
-    auto eq = [] (const Customer& c1, Customer& c2) {
+    auto eq = [] (const Customer& c1, const Customer& c2) {
         return c1.number() == c2.number();
     };
 
     // create unordered set with user-defined behavior
-    unordered_set<Customer,decltype(hash),decltype(eq)> custset(10,hash,eq);
-    // ERROR: unordered_set<Customer,function<size_t(Customer,Customer)>,decltype(eq)> custset(10,hash,eq);
+    unordered_set<Customer,
+                  decltype(hash),decltype(eq)> custset(10,hash,eq);
 
     custset.insert(Customer("nico","josuttis",42));
     PRINT_ELEMENTS(custset);

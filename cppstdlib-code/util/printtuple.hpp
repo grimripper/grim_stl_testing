@@ -11,7 +11,7 @@
 #include <tuple>
 #include <iostream>
 
-// helper: print element with index IDX of tuple with MAX elements
+// helper: print elements with index IDX and higher of tuple t having MAX elements
 template <int IDX, int MAX, typename... Args>
 struct PRINT_TUPLE {
   static void print (std::ostream& strm, const std::tuple<Args...>& t) {

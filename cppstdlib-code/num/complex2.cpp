@@ -12,6 +12,7 @@
 #include <complex>
 #include <cstdlib>
 #include <limits>
+#include <cstdio>
 using namespace std;
 
 int main()

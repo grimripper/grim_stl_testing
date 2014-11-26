@@ -14,7 +14,7 @@ using namespace std;
 
 // print valarray line-by-line
 template <typename T>
-void printValarray (const valarray<T>& va, int num)
+void printValarray (const T& va, int num)
 {
     for (int i=0; i<va.size()/num; ++i) {
         for (int j=0; j<num; ++j) {
@@ -54,7 +54,7 @@ int main()
     printValarray (va, 3);
 
     // print the square root of the elements in the second row
-    printValarray (sqrt(valarray<double>(va[slice(3,3,1)])));
+    printValarray (sqrt(valarray<double>(va[slice(3,3,1)])), 3);
 
     // double the elements in the third row
     va[slice(2,4,3)] = valarray<double>(va[slice(2,4,3)]) * 2.0;

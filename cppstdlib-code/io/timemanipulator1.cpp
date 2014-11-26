@@ -31,6 +31,7 @@ int main ()
         cerr << "invalid format read" << endl;
         exit(EXIT_FAILURE);
     }
+
     // process difference in minutes:
     auto tp = chrono::system_clock::from_time_t(mktime(&time));
     auto diff = chrono::duration_cast<chrono::minutes>(tp-now);

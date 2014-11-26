@@ -22,7 +22,7 @@ class FileDeleter
      : filename(fn) {
     }
     void operator () (std::ofstream* fp) {
-        fp->close();                   // close.file
+        delete fp;                     // close file
         std::remove(filename.c_str()); // delete file
     }
 };

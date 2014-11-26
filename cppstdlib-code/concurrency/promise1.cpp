@@ -20,7 +20,7 @@
 void doSomething (std::promise<std::string>& p)
 {
     try {
-        // read character and throw exceptiopn if 'x'
+        // read character and throw exception if 'x'
         std::cout << "read char ('x' for exception): ";
         char c = std::cin.get();
         if (c == 'x') {
@@ -28,24 +28,24 @@ void doSomething (std::promise<std::string>& p)
         }
         //...
         std::string s = std::string("char ") + c + " processed";
-        p.set_value(std::move(s));    // store result
+        p.set_value_at_thread_exit(std::move(s));    // store result
     }
     catch (...) {
-        p.set_exception(std::current_exception());  // store exception
+        p.set_exception_at_thread_exit(std::current_exception());  // store exception
     }
 }
 
 int main()
 {
     try {
-        // start thread using a promise to store the outcome
+        // create a promise to store the outcome
         std::promise<std::string> p;
+        // create a future to process the outcome
+        std::future<std::string> f(p.get_future());
+        // start a thread using the promise to store the outcome
         std::thread t(doSomething,std::ref(p));
         t.detach();
         //...
-
-        // create a future to process the outcome
-        std::future<std::string> f(p.get_future());
 
         // process the outcome
         std::cout << "result: " << f.get() << std::endl;

@@ -5,6 +5,6 @@
 int main()
 {
 	//return exec0();
-	return exec1();
-	//return exec2();
+	//return exec1();
+	return exec2();
 }

@@ -42,7 +42,7 @@ void printHashTableState (const T& cont)
 
     // elements per bucket:
     std::cout << "data: " << "\n";
-    for (auto idx=0; idx != cont.bucket_count(); ++idx) {
+    for (auto idx=0u; idx != cont.bucket_count(); ++idx) {
             std::cout << " b[" << std::setw(2) << idx << "]: ";
             for (auto pos=cont.begin(idx); pos != cont.end(idx); ++pos) {
                 std::cout << *pos << " ";
