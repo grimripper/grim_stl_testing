@@ -5,6 +5,7 @@
 #include <list>
 #include <set> // set, multiset
 #include <map>  //map, multimap
+#include <array>
 #include <unordered_set>
 #include <unordered_map>
 #include <iterator>
@@ -90,7 +91,59 @@ void n02_containers()
 
     // NOTE: deque is not contiguous
 
+    list<int> mylist = { 5, 2, 9 };
+    mylist.push_back(6); // 5,2,9,6
+    mylist.push_front(4); // 4,5,2,9,6
 
+    for (auto it : mylist)
+        cout << it << " ";
+    cout << endl;
 
+    list<int>::iterator itr = find(mylist.begin(), mylist.end(), 2); 
+    mylist.insert(itr, 8); // 4,5,8,2,9,6
 
+    for (auto it : mylist)
+        cout << it << " ";
+    cout << endl; 
+
+    itr++;
+    mylist.erase(itr); // 4,5,8,2,6
+
+    for (auto it : mylist)
+        cout << it << " ";
+    cout << endl;
+
+    // Properties of list: 
+    //  1. Fast insert/remove at any place: O(1)
+    //  2. Slow search: O(n)
+    //  3. No random access, no [] operator
+
+    // Many STL implementations make sure list is in the same block, and list also uses 2 pointers (next,prev)
+
+    // But has splice function which is hugely important
+    //mylist1.splice(itr, mylist2, itr_a, itr_b); // O(1)
+
+    // Forward list: list with forward pointers.
+
+    // Array
+    int a[3] = { 3, 4, 5 };
+    // Can't do it. 
+    //a.begin();
+    //a.end();
+    //a.size();
+    //a.swap();
+
+    // instead use 
+    array<int, 3> a2 = { 3, 4, 5 };
+
+    cout << a2.size() << endl;
+    for (auto it : a2)
+        cout << it << " "; cout << endl;
+
+    array<int, 3> a4 = { 0, 0, 0 };
+    a2.swap(a4);
+    for (auto it : a2)
+        cout << it << " "; cout << endl;
+
+    array<int, 4> a3 = { 1, 2, 3, 4 };
 }
