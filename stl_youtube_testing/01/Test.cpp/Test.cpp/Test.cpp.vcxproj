@@ -82,6 +82,8 @@
   <ItemGroup>
     <ClInclude Include="n02_containers.h" />
     <ClInclude Include="n03_assoc.h" />
+    <ClInclude Include="n04_unorderedcontainers.h" />
+    <ClInclude Include="n05_iterators.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>

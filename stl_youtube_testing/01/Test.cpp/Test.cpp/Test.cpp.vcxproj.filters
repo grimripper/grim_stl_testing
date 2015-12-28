@@ -33,6 +33,12 @@
     <ClInclude Include="n03_assoc.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="n04_unorderedcontainers.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="n05_iterators.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
