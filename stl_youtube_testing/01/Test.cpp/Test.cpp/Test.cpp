@@ -2,10 +2,10 @@
 //
 
 #include "stdafx.h"
-#include "n01_basics.h"
-#include "n02_containers.h"
-#include "n03_assoc.h"
-#include "n04_unorderedcontainers.h"
+//#include "n01_basics.h"
+//#include "n02_containers.h"
+//#include "n03_assoc.h"
+//#include "n04_unorderedcontainers.h"
 #include "n05_iterators.h"
 
 int _tmain(int argc, _TCHAR* argv[])
