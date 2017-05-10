@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -20,13 +20,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -80,15 +80,18 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="n02_containers.h" />
-    <ClInclude Include="n03_assoc.h" />
-    <ClInclude Include="n04_unorderedcontainers.h" />
-    <ClInclude Include="n05_iterators.h" />
+    <ClInclude Include="algos_01_nonmodifying.h" />
+    <ClInclude Include="algos_02_modifying.h" />
+    <ClInclude Include="intro_02_containers.h" />
+    <ClInclude Include="intro_03_assoc.h" />
+    <ClInclude Include="intro_04_unorderedcontainers.h" />
+    <ClInclude Include="intro_05_iterators.h" />
+    <ClInclude Include="intro_06_functors.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="n01_basics.h">
+    <ClInclude Include="intro_01_basics.h">
       <FileType>CppCode</FileType>
     </ClInclude>
     <ClCompile Include="stdafx.cpp" />

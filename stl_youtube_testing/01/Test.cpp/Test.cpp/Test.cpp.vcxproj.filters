@@ -24,19 +24,28 @@
     <ClInclude Include="targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="n01_basics.h">
+    <ClInclude Include="algos_01_nonmodifying.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="n02_containers.h">
+    <ClInclude Include="intro_01_basics.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="n03_assoc.h">
+    <ClInclude Include="intro_02_containers.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="n04_unorderedcontainers.h">
+    <ClInclude Include="intro_03_assoc.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="n05_iterators.h">
+    <ClInclude Include="intro_04_unorderedcontainers.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intro_05_iterators.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="intro_06_functors.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="algos_02_modifying.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
