@@ -48,6 +48,18 @@
     <ClInclude Include="algos_02_modifying.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="algos_03_sorting.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="algos_04_sortednumeric.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="string_01_constructor.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

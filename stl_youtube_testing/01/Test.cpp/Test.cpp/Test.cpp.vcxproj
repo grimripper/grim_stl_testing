@@ -82,12 +82,16 @@
   <ItemGroup>
     <ClInclude Include="algos_01_nonmodifying.h" />
     <ClInclude Include="algos_02_modifying.h" />
+    <ClInclude Include="algos_03_sorting.h" />
+    <ClInclude Include="algos_04_sortednumeric.h" />
+    <ClInclude Include="common.h" />
     <ClInclude Include="intro_02_containers.h" />
     <ClInclude Include="intro_03_assoc.h" />
     <ClInclude Include="intro_04_unorderedcontainers.h" />
     <ClInclude Include="intro_05_iterators.h" />
     <ClInclude Include="intro_06_functors.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="string_01_constructor.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>

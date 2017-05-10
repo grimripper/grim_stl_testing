@@ -10,7 +10,10 @@
 //#include "n05_iterators.h"
 //#include "n06_functors.h"
 //#include "algos_01_nonmodifying.h"
-#include "algos_02_modifying.h"
+//#include "algos_02_modifying.h"
+//#include "algos_03_sorting.h"
+//#include "algos_04_sortednumeric.h"
+#include "string_01_constructor.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
