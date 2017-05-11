@@ -60,6 +60,39 @@
     <ClInclude Include="string_01_constructor.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="string_02_accessingchars.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="string_03_memberfunctionalgos.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="string_04_nonmemberfunctionalgos.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="string_05_stringandalgos.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stream_01_intro.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stream_02_filestreamerror.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stream_03_formatting.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stream_04_manip.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stream_05_buffer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stream_06_stringstream.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stream_07_own.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">

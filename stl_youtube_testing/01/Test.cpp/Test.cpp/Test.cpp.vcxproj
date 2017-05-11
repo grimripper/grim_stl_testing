@@ -91,7 +91,18 @@
     <ClInclude Include="intro_05_iterators.h" />
     <ClInclude Include="intro_06_functors.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="stream_01_intro.h" />
+    <ClInclude Include="stream_02_filestreamerror.h" />
+    <ClInclude Include="stream_03_formatting.h" />
+    <ClInclude Include="stream_04_manip.h" />
+    <ClInclude Include="stream_05_buffer.h" />
+    <ClInclude Include="stream_06_stringstream.h" />
+    <ClInclude Include="stream_07_own.h" />
     <ClInclude Include="string_01_constructor.h" />
+    <ClInclude Include="string_02_accessingchars.h" />
+    <ClInclude Include="string_03_memberfunctionalgos.h" />
+    <ClInclude Include="string_04_nonmemberfunctionalgos.h" />
+    <ClInclude Include="string_05_stringandalgos.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>

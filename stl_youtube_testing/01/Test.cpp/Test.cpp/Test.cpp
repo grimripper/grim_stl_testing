@@ -13,7 +13,17 @@
 //#include "algos_02_modifying.h"
 //#include "algos_03_sorting.h"
 //#include "algos_04_sortednumeric.h"
-#include "string_01_constructor.h"
+//#include "string_01_constructor.h"
+//#include "string_02_accessingchars.h"
+//#include "string_03_memberfunctionalgos.h"
+//#include "string_04_nonmemberfunctionalgos.h"
+//#include "string_05_stringandalgos.h"
+//#include "stream_01_intro.h"
+//#include "stream_02_filestreamerror.h"
+//#include "stream_03_formatting.h"
+//#include "stream_04_manip.h"
+//#include "stream_05_buffer.h"
+#include "stream_06_stringstream.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
