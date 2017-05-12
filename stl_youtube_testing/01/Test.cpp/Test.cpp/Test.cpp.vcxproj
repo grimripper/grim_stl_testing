@@ -80,6 +80,14 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="adv_01_membervsalgo.h" />
+    <ClInclude Include="adv_02_trickyreverse.h" />
+    <ClInclude Include="adv_03_equivalenceequality.h" />
+    <ClInclude Include="adv_04_removingelements1.h" />
+    <ClInclude Include="adv_05_removingelements2.h" />
+    <ClInclude Include="adv_06_vectordeque1.h" />
+    <ClInclude Include="adv_07_vectordeque2.h" />
+    <ClInclude Include="adv_08_objectslicing.h" />
     <ClInclude Include="algos_01_nonmodifying.h" />
     <ClInclude Include="algos_02_modifying.h" />
     <ClInclude Include="algos_03_sorting.h" />

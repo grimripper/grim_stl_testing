@@ -93,6 +93,30 @@
     <ClInclude Include="stream_07_own.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="adv_01_membervsalgo.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adv_02_trickyreverse.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adv_03_equivalenceequality.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adv_04_removingelements1.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adv_05_removingelements2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adv_06_vectordeque1.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adv_07_vectordeque2.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="adv_08_objectslicing.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
