@@ -23,3 +23,12 @@ void print_vec(const vector<string>& vec)
 	}
 	cout << endl;
 }
+
+template <typename T>
+void print(T t, string msg) {
+	cout << msg << " { ";
+	for (typename T::iterator it = t.begin(); it != t.end(); ++it) {
+		cout << *it << ", ";
+	}
+	cout << "}" << endl;
+}

@@ -28,11 +28,11 @@
 //#include "adv_01_membervsalgo.h"
 //#include "adv_02_trickyreverse.h"
 //#include "adv_03_equivalenceequality.h
-#include "adv_04_removingelements1.h"
+//#include "adv_04_removingelements1.h"
 //#include "adv_05_removingelements2.h"
 //#include "adv_06_vectordeque1.h"
 //#include "adv_07_vectordeque2.h"
-//#include "adv_08_objectslicing.h"
+#include "adv_08_objectslicing.h"
 
 int _tmain(int argc, _TCHAR* argv[])
 {
