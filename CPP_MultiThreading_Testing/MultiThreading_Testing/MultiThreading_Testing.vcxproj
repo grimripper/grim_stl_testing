@@ -151,6 +151,9 @@
     <ClInclude Include="Test02.h" />
     <ClInclude Include="Test03.h" />
     <ClInclude Include="Test04.h" />
+    <ClInclude Include="Test05.h" />
+    <ClInclude Include="Test06.h" />
+    <ClInclude Include="Test07.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MultiThreading_Testing.cpp" />

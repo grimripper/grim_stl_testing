@@ -36,6 +36,15 @@
     <ClInclude Include="Test04.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Test05.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Test06.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Test07.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
